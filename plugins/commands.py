@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122')
+                        InlineKeyboardButton('සොයන්න🔎', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('Join Channel', url='https://t.me/CloudUpdateslk')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,11 +99,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("සොයන්න🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("Join Channel", url="https://t.me/CloudUpdateslk")
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("About", url="https://t.me/CloudUpdateslk/82")
                     ]
                 ]
             )
