@@ -101,9 +101,6 @@ async def start(bot, cmd):
                     [
                         InlineKeyboardButton("සොයන්න🔎", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("Join Channel", url="https://t.me/CloudUpdateslk")
-                    ],
-                    [
-                        InlineKeyboardButton("About", url="https://t.me/CloudUpdateslk/82")
                     ]
                 ]
             )
